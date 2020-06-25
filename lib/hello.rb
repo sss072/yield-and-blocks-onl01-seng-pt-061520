@@ -11,7 +11,7 @@ def hello_t(array)
   end
 end
 
-hello_t(["tim", "tom"])
+hello_t(["tim", "tom", "Jim"]) { |num| puts num * 2 }
 
 
 
